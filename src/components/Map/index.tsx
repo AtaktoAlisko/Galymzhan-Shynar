@@ -3,8 +3,8 @@ import { YMaps, Map } from '@pbe/react-yandex-maps';
 
 const YandexMap = () => (
   <YMaps>
-    <div className="text-3xl text-center mt-10 color font">
-    Мерекелік кешке астындағы картаны <br/> қолдану арқылы бара аласыздар!
+    <div className="text-2xl text-center mt-10 color font">
+    Cіздерге ыңғайлы болуы үшін <br/> төменде көрсетілген картаны қолданыңыз !
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '500px' }}>
         <Map 
           defaultState={{ center: [50.038475, 72.971471], zoom: 15 }}
