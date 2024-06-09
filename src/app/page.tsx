@@ -17,6 +17,7 @@ import form from "../../public/images/form.png";
 import heart from "../../public/images/heart.png";
 import Calendar from "@/components/Calendar";
 import ToiBagdarlamasi from "../components/ToiBagdarlamasi";
+import Map from "@/components/Map";
 
 export default function Home() {
     useEffect(() => {
@@ -135,8 +136,9 @@ export default function Home() {
                     />
                 </a>
             </div>
+            <Map/>
 
-            <ToiBagdarlamasi />
+            {/* <ToiBagdarlamasi /> */}
             <Attendance />
 
             <h2 className="mt-5  text-3xl color font">Байбосыновтар әулеті </h2>
