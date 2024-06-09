@@ -60,7 +60,7 @@ export default function Home() {
                 <p>Cіз(дер)ді ұлымыз</p>
                 <h2 className="text-4xl font color ">Ғалымжан</h2>
                 <p>мен келініміз</p>
-                <h2 className="text-4xl color font">Шынар</h2>
+                <h2 className="text-4xl color font">Шынардың</h2>
                 <p>үйлену тойына арналған</p>
                 <p>салтанатты ақ</p>
                 <p>дастарханымыздың</p>
@@ -110,7 +110,7 @@ export default function Home() {
             >
                 <p>Мекен-жайымыз:</p>
                 <p className="color">Теміртау қаласы</p>
-                <p>9-й микраорайон,98a</p>
+                <p>9-й Микрорайон,98a</p>
                 <p className="color">Тойбастар</p>
                 <p >Мейрамханасы</p>
             </div>
@@ -137,51 +137,6 @@ export default function Home() {
             </div>
 
             <ToiBagdarlamasi />
-
-            <h2 className="mt-10 mb-5 text-3xl color ">Той хештегі:</h2>
-            <div
-                className="text-center text-2xl leading-normal"
-                data-aos="fade-up"
-            >
-                <p>Егер инстаграм немесе басқа</p>
-                <p>әлеуметтік желілерде</p>
-
-                <p>бөлісеңіз,сіздерді осы хештегті</p>
-                <p>қолдануды сұраймыз</p>
-                <h3 className="text-3xl mt-5 font color">#Ғалымжан_Шынар</h3>
-            </div>
-
-            <h2 className="mt-10 mb-5 text-3xl">Дресс код:</h2>
-            <div className="flex justify-center gap-20">
-                <div>
-                    <Image
-                        className="mt-10 mb-10 "
-                        height={100}
-                        width={100}
-                        src={toi}
-                        alt="calendar"
-                    />
-                    <div className="mt-[-25px] text-[25px] font" data-aos="fade-up">
-                        <p>Ерлер қауымы</p>
-                        <p>Классикалық</p>
-                        <p>Костюм</p>
-                    </div>
-                </div>
-
-                <div>
-                    <Image
-                        className="mt-10 mb-10 ml-3"
-                        height={100}
-                        width={100}
-                        src={toi2}
-                        alt="calendar"
-                    />
-                    <div className="mt-[-25px] text-[25px] font" data-aos="fade-up">
-                        <p>Әйелдер қауымы</p>
-                        <p>Кешкі көйлек</p>
-                    </div>
-                </div>
-            </div>
             <Attendance />
 
             <h2 className="mt-5  text-3xl color font">Байбосыновтар әулеті </h2>
